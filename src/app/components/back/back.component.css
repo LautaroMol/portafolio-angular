@@ -1,0 +1,22 @@
+footer {
+    margin-top: 100px;
+    margin-left: 25%;
+    text-align: center;
+    position: absolute;
+}
+
+
+.example-button-row {
+    display: table-cell;
+    width: 400px;
+    background-color: transparent;
+  }
+  button {
+    color: #8848ff;
+    box-shadow: 5px 8px 12px black;
+    width: 200px;
+    height: 50px;
+    font-size: large;
+    background-color: transparent;
+    border: 0;
+  }

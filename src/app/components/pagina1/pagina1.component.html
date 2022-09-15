@@ -1,0 +1,28 @@
+<header *ngIf="hasRoute('/')">
+    <section class="container00" >
+      <h1>Portoflio Lautaro Castellanos</h1>
+    </section>
+    <router-outlet></router-outlet>
+  
+  <button routerLink="/pagina2" aria-current="page" class="container1">
+  <h1 >Contacto e<br>
+  informacion personal</h1>
+
+  </button>
+  
+  <button class = "container2" routerLink="/pagina3" aria-current="page">
+  <h1>Formacion y <br>
+  cursos</h1>
+
+  </button>
+  
+  <button class="container3" routerLink="/pagina4" aria-current="page" >
+  <h1>Tecnologias aprendidas <br>
+  y nivel</h1>
+  </button>
+  
+  <button class = "container4">
+    <h1>Proyectos personales <br>
+    y en conjunto</h1>
+    </button>
+</header>

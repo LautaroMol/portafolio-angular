@@ -1,0 +1,60 @@
+body {
+    overflow: hidden;
+    display: flex;
+    
+  }
+
+.textopag4 {
+    color: #cacaca;
+    box-shadow: 5px 8px 12px black;
+    margin-top: 100px;
+    margin-left: 100px;
+    width: 510px;
+  }
+  
+  .imgpag4 {
+    margin-left: 950px;
+    margin-top: 150px;
+    position: fixed;
+    height: 300px;
+    width: 800px;
+  }
+  
+  .visual {
+    position: absolute;
+    margin: 50px 50px;
+    height: 60px;
+    width: 60px;
+    z-index: 1;
+
+  }
+  
+  .csharp img{
+    width: 128px;
+    height: 128px;
+    margin: 50px 150px;
+    position: absolute;
+    object-fit: contain;
+    z-index: 1;
+  }
+  
+  .ruby img{
+    width: 300px;
+    height: 300px;
+    margin: 200px 50px;
+    position: absolute;
+    object-fit: contain;
+    z-index: 1;
+  }
+  
+  .python {
+    margin: 200px 500px;
+    position: absolute;
+    z-index: 1;
+  }
+  
+  .javascript {
+      margin: 300px 500px;
+      position: absolute;
+      z-index: 1;
+  }
